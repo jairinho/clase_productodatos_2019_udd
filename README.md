@@ -26,7 +26,6 @@ pip install fastai
 ```
 pip install Flask
 ```
-### Si se desea modificar aún más la aplicación web, se recomienda usar un [ambiente virtual](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) (además es una muy buena práctica al momento de programar en Python)
 
 ## Construcción del Modelo de Deep Learning
 
@@ -45,16 +44,6 @@ pip install Flask
 - Modificar los archivos en los directorios `templates` y `static`.
 
 - `index.html` maneja la parte gráfica y `main.js` el comportamiento.
-
-
-
-## Conexión con Heroku
-
-- El primer paso es crear una aplicación y darle un nombre.
-
-- En "Deployment Method" escoger "Connect to Github" y seguir las instrucciones.
-
-- Una vez que esté listo, aparecerá un link para revisar la aplicacion en el navegador, como este: https://facemask-udd.herokuapp.com/
 
 ## Créditos
 
