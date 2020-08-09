@@ -1,20 +1,21 @@
 
-# Laboratorio: Publicando un modelo de deep learning en Heroku
+# Laboratorio 1: Publicando un modelo de deep learning en Heroku
 
 
-> Una revisión de todo el camino necesario para publicar nuestro primer Producto de Datos. Ejemplo disponible en https://facemask-udd.herokuapp.com/
+> Corresponde a un modelo de clasificación de imágenes . En este caso corresponde la clasificación de tres especies de la clase équidos (caballo, cebras y asnos)
+
+La aplicación está disponible en https://claseudd-horse.herokuapp.com/
 
 
 ## Antes de empezar
 
-- Para poder realizar este laboratorio se necesita una cuenta en [GitHub](https://www.github.com/) y [Heroku](https://www.heroku.com/). Ambas son gratuitas y les serán muy útiles en el futuro.
-- Se asume que el computador de cada estudiante tiene Python y Jupyter Notebook instalados (requisitos de varios cursos anteriores del programa). Si no es el caso, recomiendo seguir algún tutorial como esta [guía para instalar Jupyter Notebook en Windows 10](https://medium.com/@kswalawage/install-python-and-jupyter-notebook-to-windows-10-64-bit-66db782e1d02).
 
 ## Instalación de librerías necesarias
 
 ### Pytorch
 
 - Seguir las [instrucciones oficiales](https://pytorch.org/get-started/locally/) seleccionando el sistema operativo correspondiente.
+Para este ejemplo se instaló pytorch 1.5.0 versión para cpu
 
 ### fastai [(instrucciones)](https://docs.fast.ai/install.html)
 ```
