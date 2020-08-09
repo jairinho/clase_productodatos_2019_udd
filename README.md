@@ -1,6 +1,5 @@
 
-# Laboratorio 1: Publicando un modelo de deep learning en Heroku
-
+# Laboratorio 1: Reconociendo razas de équidos
 
 > Corresponde a un modelo de clasificación de imágenes . En este caso corresponde la clasificación de tres especies de la clase équidos (caballo, cebras y asnos)
 
