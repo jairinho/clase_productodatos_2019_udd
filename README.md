@@ -9,8 +9,14 @@ La aplicación está disponible en https://claseudd-horse.herokuapp.com/
 
 ## Antes de empezar
 
+El modelo corresponde a una red neurnal artificial Resnet, que fue entrenada con imágenes de 3 tipos de distinos de animales de la clase équidos:
+Éstos son:
+ -Caballos
+ -Cebras
+ -Asnos
 
-## Instalación de librerías necesarias
+
+## Las librerías necesarias son:
 
 ### Pytorch
 
@@ -27,24 +33,7 @@ pip install fastai
 pip install Flask
 ```
 
-## Construcción del Modelo de Deep Learning
-
-- Se deben seguir las instrucciones explicadas en este [notebook](https://github.com/aastroza/clase_productodatos_2019_udd/blob/master/notebooks/ejemplo_clasificador_fastai.ipynb).
-
-## Modificación de la aplicación web
-
-### Poner el modelo (archivo .pkl) en la carpeta `models` 
-
-### Cambiar los nombres de las clases
-
-- Abrir "app.py" y buscar la variable llamada `classes` y cambiar su contenido con las clases del clasificador propio.
-
-### Modificaciones de la Interfaz
-
-- Modificar los archivos en los directorios `templates` y `static`.
-
-- `index.html` maneja la parte gráfica y `main.js` el comportamiento.
-
 ## Créditos
 
-- La construcción del modelo está basada en las clases de [Francisco Ingham y Jeremy Howard](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson2-download.ipynb). La aplicacion web está inspirada en el trabajo de [Shankar Jha](https://github.com/shankarj67/Water-classifier-fastai).
+-La construcción del modelo está basada en las clases de Alonso Astroza de producto de datos del magister de Data Science, Universidad del desarrollo.
+En particular este laboratorio se basa en las clases de [Francisco Ingham y Jeremy Howard](https://github.com/fastai/course-v3/blob/master/nbs/dl1/lesson2-download.ipynb). La aplicacion web está inspirada en el trabajo de [Shankar Jha](https://github.com/shankarj67/Water-classifier-fastai).
